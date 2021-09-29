@@ -12,5 +12,11 @@
 使用的模块:L289N马达控制模块，MQ-5气体检测模块，DS18B20温度检测模块，面包板一个，杜邦线若干，马达一个  
 对了还有树莓派的SCI摄像头  
 
+## 仓库文件
+`TFlite_Webcam.py`: 程序主文件  
+`tf_model\detect.tflite`: 预训练的量化 COCO SSD MobileNet v1 模型  
+`tf_model\labelmap.txt`: 模型标签文件  
+在导入库的时候会爆警告:`Import "tensorflow.lite.python.interpreter" could not be resolved`，**可以无视**  
+
 ## 连线图
 晚点发（
