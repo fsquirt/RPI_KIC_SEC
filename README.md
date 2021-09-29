@@ -8,7 +8,7 @@
 ## 对于硬件要求
 树莓派3B+，树莓派4B都可以  
 在内存低于2G的树莓派上运行，你可能需要启用swap防止内存不足  
-如果你不需要增加swap，那需要将38行 `os.system("sudo swapon /swap/swapfile")` 注释掉  
+如果你不需要增加swap，那需要将17行 `os.system("sudo swapon /swap/swapfile")` 注释掉  
 使用的模块:L289N马达控制模块，MQ-5气体检测模块，DS18B20温度检测模块，面包板一个，杜邦线若干，马达一个  
 对了还有树莓派的SCI摄像头  
 
